@@ -1,0 +1,40 @@
+body {
+    background: #333;
+    color: #fe9900;
+    font-family: monospace;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+}
+
+.container__title {
+    font-size: 40px;
+    margin: 40px;
+}
+
+img {
+    width: 100px;
+    height: 78px;
+    border-radius: 25px;
+}
+
+img:hover {
+    transform: scale(1.4);
+    transition: all 0.8s;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.container__images {
+    margin: 50px;
+}
+
+.container__result {
+   min-width: 50px;
+   min-height: 50px; 
+}
